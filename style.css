@@ -116,6 +116,41 @@ header .user .post {
     color: #eee;
 }
 
+.skills-holder {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 2rem;
+}
+
+.technical h1 {
+    padding-top: 2rem;
+    padding-left: 4rem;
+    color: #f9ca24;
+    font-size: 3rem;
+}
+
+.technical span {
+    color: #f9ca24;
+}
+
+.technical ul {
+    padding-left: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.technical ul li {
+    color: white;
+    font-size: 2rem;
+}
+
 header .navbar {
     width: 100%;
 }
@@ -128,8 +163,8 @@ header .navbar ul {
 
 header .navbar ul li a {
     display: block;
-    padding: 1rem;
-    margin: 1.5rem 0;
+    padding: 0.5rem;
+    margin: 1rem 0;
     background: #333;
     color: #fff;
     font-size: 2rem;
